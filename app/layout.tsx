@@ -5,6 +5,7 @@ import './globals.css';
 const libreBaskerville = Libre_Baskerville({
   variable: '--font-libre-baskerville',
   weight: ['400', '700'],
+  subsets: ['latin']
 });
 
 const lora = Lora({
